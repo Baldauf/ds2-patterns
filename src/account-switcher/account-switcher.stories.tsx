@@ -6,10 +6,11 @@ export default {
 	title: 'AccountSwitcher'
 };
 
-export const playground = () => {
+export const fullSwitcher = () => {
 	return (
 		<div style={{ display: 'flex', justifyContent: 'center' }}>
 			<AccountSwitcher />
 		</div>
 	);
 };
+
