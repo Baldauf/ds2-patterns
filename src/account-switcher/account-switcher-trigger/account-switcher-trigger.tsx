@@ -24,6 +24,13 @@ export const AccountSwitcherTrigger = ({
 	identity,
 }: AccountSwitcherTriggerProps) => {
 	const AccountSwitcherContentWrapper = styled(EuiHeaderSectionItemButton)`
+		&:hover {
+			text-decoration: none !important;
+
+			.euiFlexItem .euiText {
+				text-decoration: underline;
+			}
+		}
 		.euiHeaderSectionItemButton__content {
 			display: block;
 		}
